@@ -1,0 +1,172 @@
+{
+  "iOSSKU": "102",
+  "macAppStoreSKU": "",
+  "androidBillingPlatform": "GooglePlay",
+  "GooglePlayPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm8ZV0YMZGOV299WEBAR7HULyaqVVAhMN3RzdUtIfb3D3llIEApCVXkqJuAqoCpeORit9/EVmsMCdiRDBM3pi8MtbIZqwko6YNTyzF99IiR1DQHiZzp6TTtFF0NUeQyKxx7n7NuwlpBCmwdJIjAc5W2HPz1cimzwFuxiheCobt2+vxrfoLfnJ+tJXyD7M7Dqa3c5jhMNkRrsBEx0HNrCXOkpC35EIqquwz2NO3RHkhpzo1KUUWjyrE3R0YQvfcKV31FZU0nSEFegFEDGywWKln3J3oPA+vM3o55gZsBZynzU0mcOgq8Y4FAIQ5clqafy1/+07OevHIcVPT83VVDTTVQIDAQAB",
+  "useAmazonSandbox": true,
+  "UseWP8MockingFramework": false,
+  "useHostedConfig": false,
+  "hostedConfigUrl": null,
+  "UseWin8_1Sandbox": true,
+  "samsungAppsMode": "PRODUCTION",
+  "samsungAppsItemGroupId": "",
+  "unibillAnalyticsAppId": "",
+  "unibillAnalyticsAppSecret": "",
+  "purchasableItems": {
+    "com.outlinegames.100goldcoins": {
+      "@id": "com.outlinegames.100goldcoins",
+      "@purchaseType": "Consumable",
+      "name": "100 Gold Coins",
+      "description": "Standard issue coin, 0% gold by volume",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "GooglePlay.Id": "com.outlinegames.100goldcoins.v2.c",
+          "priceInLocalCurrency": "1.99",
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "AppleAppStore.Id": "com.outlinegames.100goldcoins.5",
+          "appleAppStorePriceTier": "33"
+        },
+        "MacAppStore": {
+          "MacAppStore.Id": "com.outlinegames.100goldcoinsosx"
+        },
+        "WindowsPhone8": {},
+        "Windows8_1": {
+          "Windows8_1.Id": "com.outlinegames.100goldcoins.win8"
+        },
+        "UnityEditor": {}
+      }
+    },
+    "com.outlinegames.sword": {
+      "@id": "com.outlinegames.sword",
+      "@purchaseType": "NonConsumable",
+      "name": "Magic Sword",
+      "description": "Can slice through time",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "GooglePlay.Id": "com.outlinegames.sword.c",
+          "priceInLocalCurrency": "0",
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 1.0,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "com.outlinegames.sword.5"
+        },
+        "MacAppStore": {
+          "MacAppStore.Id": "com.outlinegames.swordosx"
+        },
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.outlinegames.250goldcoins": {
+      "@id": "com.outlinegames.250goldcoins",
+      "@purchaseType": "Consumable",
+      "name": "250 Gold coins",
+      "description": "250 Gold coins",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": "1",
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": "1"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.outlinegames.unibill.silver.100": {
+      "@id": "com.outlinegames.unibill.silver.100",
+      "@purchaseType": "Consumable",
+      "name": "100 silver",
+      "description": "100 silver",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": "1",
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": "1"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.outlinegames.unibill.silver.500": {
+      "@id": "com.outlinegames.unibill.silver.500",
+      "@purchaseType": "Consumable",
+      "name": "500 silver",
+      "description": "500 silver",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": "1",
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": "1"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "com.printlnstudios.coins.1000 ": {
+      "@id": "com.printlnstudios.coins.1000 ",
+      "@purchaseType": "Consumable",
+      "name": "1000 Coins",
+      "description": "1000 Coins You Can Buy Power-Ups With",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 0.99,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {},
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    }
+  },
+  "currencies": {
+    "gold": {
+      "com.outlinegames.250goldcoins": 250.0,
+      "com.outlinegames.100goldcoins": 100.0
+    },
+    "silver": {
+      "com.outlinegames.unibill.silver.100": 100.0,
+      "com.outlinegames.unibill.silver.500": 500.0
+    },
+    "Coins": {
+      "com.outlinegames.100goldcoins": 0.0,
+      "com.printlnstudios.coins.1000 ": 1000.0
+    }
+  }
+}
